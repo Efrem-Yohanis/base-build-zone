@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Lightbulb, Handshake, Award, TrendingUp, Target, Eye, ArrowRight, Sparkles, Rocket } from "lucide-react";
+import { Shield, Lightbulb, Handshake, Award, TrendingUp, Target, Eye, ArrowRight, Sparkles, Rocket, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import teamCeo from "@/assets/team-ceo.jpg";
@@ -12,6 +12,11 @@ const About = () => {
       icon: Shield,
       title: "Integrity",
       description: "We deliver what we promise with honesty and professionalism",
+    },
+    {
+      icon: Heart,
+      title: "Honest",
+      description: "We believe in transparency and truthfulness in all our interactions",
     },
     {
       icon: Lightbulb,

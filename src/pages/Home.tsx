@@ -14,7 +14,7 @@ import {
   ChevronLeft,
   ChevronRight
 } from "lucide-react";
-import heroImage from "@/assets/hero-collaboration.jpg";
+import heroImage from "@/assets/team-collaboration.png";
 import processImage from "@/assets/process-bg.jpg";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";

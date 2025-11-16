@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, Linkedin, Twitter } from "lucide-react";
+import logo from "@/assets/jtech-logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">JTech</h3>
+            <img src={logo} alt="JTech Logo" className="h-12 w-auto mb-4" />
             <p className="text-sm opacity-90">
               Your Agile Tech Partner for Growing Businesses
             </p>

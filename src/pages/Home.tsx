@@ -176,34 +176,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-b from-secondary/30 to-background border-y border-border">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-            {[
-              { value: "50+", label: "Projects Delivered", icon: CheckCircle },
-              { value: "98%", label: "Client Satisfaction", icon: TrendingUp },
-              { value: "24/7", label: "Support Available", icon: ClipboardCheck },
-              { value: "10+", label: "Years Experience", icon: Code },
-            ].map((stat, index) => (
-              <div 
-                key={index} 
-                className="text-center space-y-2 animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="flex justify-center mb-3">
-                  <div className="bg-primary/10 p-3 rounded-xl">
-                    <stat.icon className="h-6 w-6 text-primary" />
-                  </div>
-                </div>
-                <div className="text-4xl lg:text-5xl font-bold text-foreground">{stat.value}</div>
-                <div className="text-sm lg:text-base text-muted-foreground font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Services Carousel */}
       <section className="py-24 px-4 relative">
         <div className="container mx-auto">

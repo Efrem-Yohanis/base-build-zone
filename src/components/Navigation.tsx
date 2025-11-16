@@ -22,8 +22,11 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <img src={logo} alt="JTech Logo" className="h-10 w-auto" />
+          <Link to="/" className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden bg-background border-2 border-primary/20">
+              <img src={logo} alt="JTech Logo" className="w-full h-full object-cover" />
+            </div>
+            <span className="text-2xl font-bold text-foreground">JTECH</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -9,7 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <img src={logo} alt="JTech Logo" className="h-12 w-auto mb-4" />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-background border-2 border-primary-foreground/20">
+                <img src={logo} alt="JTech Logo" className="w-full h-full object-cover" />
+              </div>
+              <span className="text-2xl font-bold">JTECH</span>
+            </div>
             <p className="text-sm opacity-90">
               Your Agile Tech Partner for Growing Businesses
             </p>
